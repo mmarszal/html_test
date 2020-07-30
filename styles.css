@@ -1,0 +1,22 @@
+#menu {
+    border-style: solid;
+    border: 1px 1px 1px 1px;
+    position:fixed;
+    left: 0px;
+    top: 0px;
+    width: 100%;
+}
+
+#content {
+    position: relative;
+    top: 50px;
+}
+
+#footer {
+    border-style: solid;
+    border: 1px 1px 1px 1px;
+    position:fixed;
+    left: 0px;
+    bottom: 0px;
+    width: 100%;
+}
