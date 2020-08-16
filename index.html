@@ -7,17 +7,29 @@
         <meta charset="utf-8">
     </head>
     <body>
-        <main>
-            <div id="menu">
-                <p>Text</p>
-            </div>
-            <div id="content">
-                <p>Middle Text</p>
-            </div>
-            <div id="footer">
-                <p>Footer</p>
-                <p>Hello</p>
-            </div>
-        </main>
+        <script>
+            function add7(num) {
+                return num + 7;
+            }
+
+            function multiplty(n1, n2) {
+                return n1 * n2;
+            }
+
+            function capitalize(str) {
+                let firstChar = str[0];
+                firstChar = firstChar.toUpperCase();
+                return firstChar + str.slice(1);
+            }
+
+            function lastLetter(str) {
+                return str[str.length - 1];
+            }
+
+            console.log(add7(1));
+            console.log(multiplty(6, 3));
+            console.log(capitalize("jackisdumb"));
+            console.log(lastLetter("heywhatisthis"));
+        </script>
     </body>
 </html>
